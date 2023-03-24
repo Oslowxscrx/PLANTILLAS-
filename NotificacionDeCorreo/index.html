@@ -1,11 +1,9 @@
-<<<<<<< HEAD:index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -56,59 +54,136 @@
     </div>
     
 </body>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="contenedor-general">
-        <div class="header">
-            <p>PROGRESS</p><span>Organizer</span>
-            <div></div>
-        </div>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #252525;
+    color: white;
+    font-family: 'Poppins', sans-serif;
 
-        <div class="seccion1">
-            <h3>BIENVENIDO</h3> <p>USUARIO</p> <span>: ADMIN</span>
+}
+.contenedor-general{
+    background: #1d1d1d;
+    width: 60%;
+    height: 75vh;
+    margin: 50px auto;
+    padding:25px ;
+    /* border: 1px solid #b094ec; */
+}
 
-        </div>
-        <div class="seccion2">
-            <div class="contenedor">
-                <span>Ruc:</span>
-                <div> <p>1750351351001</p> </div>
-            </div>
-            <div class="contenedor">
-                <span>Usuario:</span>
-                <div> <p>Terminator_12</p> </div>
-            </div>
-            <div class="contenedor"> 
-                <span>Contraseña :</span>
-                <div> <p>empresaSuprema2</p></div>
-            </div>
-        </div>
-        <div class="seccion3">
-            <div class="parrafos">
-                <p>
-                    Es un placer tenerte como nuevo miembro del sistema Progress Organizer
-                    tus credenciales son de tipo administrador guardalas y no las compartas
-                    con nadie
-                </p>
-            </div>
-            <div class="parrafos">
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                </p>
-            </div>
-        </div>
+.header{
+    display: flex;
+    font-size: 25px;
+    height: 50px;
+    position: relative;
+}
+.header p{
+    font-weight: 600;
+    padding-right: 10px;
+    color: #b094ec;
 
-    </div>
+}
+.header span{
+    font-weight: 500;
+}
 
-</body>
->>>>>>> 6ddeb2139fddb4a55165ba0fe0938f64cebf88bc:NotificacionDeCorreo/index.html
-</html>
+.header div{
+    width: 130px;
+    height: 3px;
+    background: #b094ec;
+    border-radius: 10px;
+    position: absolute;
+    top: 30px;
+}
+.seccion1{
+    /* border: 2px solid red; */
+    height: 160px;
+    /* padding: 40px 200px 60px 100px; */
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+}
+.seccion1 div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.seccion1 h3{
+
+    font-size: 75px;
+    letter-spacing: 20px;
+}
+.seccion1 p{
+    font-size: 40px;
+   
+}
+
+.seccion1 span{
+    font-size: 40px;
+    margin-left:25px ;
+   
+    color: #b094ec;
+}
+.seccion2{
+    margin-top: 35px ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.seccion2 .contenedor{
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    flex-direction: column;
+    /* padding: 15px 0px 15px 125px; */
+    padding: 15px 0px 35px 0px;
+
+    align-items: center;
+}
+.seccion2 .contenedor span{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.seccion2 .contenedor div{
+    color: white;
+    /* background: white; */
+    border: 2px solid blueviolet ;
+    width: 225px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccion2 .contenedor div p{
+    color: black;
+    font-weight: 300;
+
+    color: white;
+
+}
+.seccion3{
+    /* border: 2px solid red; */
+    display:grid;
+    grid-template-columns: repeat(2,250px);
+    justify-content: center;
+    gap: 160px;
+
+}
+.seccion3 .parrafos{
+    /* border: 2px solid green; */
+    width: 250px;
+    
+}
+.seccion3 .parrafos p{
+    font-weight: 400;
+}
+
+
+</style>
