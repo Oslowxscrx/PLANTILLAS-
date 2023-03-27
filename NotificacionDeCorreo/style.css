@@ -19,10 +19,10 @@ body{
     background: #1d1d1d;
     color: white;
 
-    width: 570px;
-    height: 65vh;
+    max-width: 570px;
+    /* height: 65vh; */
     margin: auto;
-    padding:25px ;
+    padding: 25px 25px 30px 25px ;
     /* border: 1px solid #b094ec; */
 }
 
@@ -200,7 +200,7 @@ body{
     /* margin-bottom: 25px; */
 }
 .footer {
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 10px;
     text-align: center;
     color: gray;
