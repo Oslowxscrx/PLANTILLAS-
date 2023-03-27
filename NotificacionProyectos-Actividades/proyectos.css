@@ -43,7 +43,7 @@ body{
     border-radius: 10px;
 }
 .seccion1{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     /* padding: 40px 200px 60px 100px; */
    text-align: center;
 }
@@ -69,7 +69,7 @@ body{
     font-weight: 700;
 }
 .seccion2{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin-top: 10px ;
     height: 110px;
     font-size: 12px;
@@ -79,19 +79,23 @@ body{
 .seccion2 table td{
     vertical-align: top;
     padding: 10px 10px 0px 0px;
-    font-size: 12px;
+    /* border: 2px solid yellow; */
 
-
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+.col-1{
+    width: 400px;
+    padding: 15px;
+}
+.seccion2 table td .x{
+    margin-top: 10px;
 }
 .seccion2 table{
     /* border: 2px solid yellow; */
     font-size: 20px;
 
-}
-.seccion2 table td{
-    font-size: 15px;
-    font-weight: 500;
-    text-align: justify;
 }
 .seccion2 div{
     width: 220px;
