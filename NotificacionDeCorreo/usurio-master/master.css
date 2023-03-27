@@ -6,14 +6,15 @@
 }
 body{
     background: #252525;
-    color: white;
     font-family: 'Poppins', sans-serif;
 
 }
 .contenedor-general{
     background: #1d1d1d;
-    width: 60%;
-    height: 70vh;
+    color: white;
+
+    width: 550px;
+    height: 65vh;
     margin: 50px auto;
     padding:25px ;
     /* border: 1px solid #b094ec; */
@@ -21,92 +22,103 @@ body{
 
 .header{
     /* border: 2px solid green; */
-    position: relative;
     
-    font-size: 25px;
-    height: 50px;
+    font-size: 16px;
+    height: 40px;
 }
-.header .p{
+.header p{
     font-weight: 600;
     padding-right: 10px;
     color: #b094ec;
 
 }
-.header .span{
-    position: absolute;
+.header span{
     font-weight: 500;
-    top: 0px ;
-    left: 140px;
+    color: white;
 }
 
 .header div{
-    width: 130px;
+    width: 80px;
     height: 3px;
     background: #b094ec;
     border-radius: 10px;
-    position: absolute;
-    top: 30px;
+    margin-bottom: 25px;
 }
 .seccion1{
     /* border: 2px solid green; */
-    position: relative;
-    height: 220px;
+    /* position: relative; */
+    height: 160px;
     /* padding: 40px 200px 60px 100px; */
    text-align: center;
 }
-.seccion1 div{
-    /* display: flex; */
-    /* justify-content: center; */
-    /* border: 2px solid red; */
-    margin-top: 10px;
-    width: 100%;
-    height: 50px;
-    text-align: center;
-
-    position: relative;
-    /* align-items: center */
-}
-.seccion1 div .p{
-    position: absolute;
-    font-size: 20px;
-    margin-left: 275px;
-    font-weight: 200;
-}
-.seccion1 div .span{
-    position: absolute;
-    top: 0;
-    margin-left: 5px;
-
-}
-
-    
-.seccion1 .h3{
-    
-    font-size: 75px;
-    letter-spacing: 20px;
-}
-.seccion1 .p{
-   margin-right: 250px;
+.seccion1 h3{
+    /* border: 2px solid green; */
+    height: 60px;
     font-size: 50px;
+    letter-spacing: 17px;
+}
+.seccion1 p{
+    font-size: 40px;
     font-weight: 500;
+    text-align: center;
    
 }
-
-.seccion1 .span{
-    position: absolute;
-    font-size: 50px;
-    margin-left:0px ;
-   top: 113px;
+.seccion1 span{
+    text-align: center;
+    font-size: 40px;
     color: #b094ec;
     font-weight: 500;
 
 }
-.seccion2{
-    /* border: 2px solid green; */
+.seccion1 div{
+    /* margin-top: 10px; */
+    width: 100%;
+    height: 50px;
+    text-align: center;
 
-    margin-top: 35px ;
+    /* position: relative; */
+    /* align-items: center */
+}
+.seccion1 div p{
+    /* position: absolute; */
+    text-align: center;
+    font-size: 15px;
+    /* margin-left: 275px; */
+    font-weight: 200;
+}
+    table{
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+    td{
+        /* border: 2px solid green; */
+        text-align: center;
+    }
+    table div {
+        color: white;
+        /* background: white; */
+        border: 2px solid blueviolet ;
+        width: 180px;
+        height: 30px;
+        border-radius: 10px;
+        margin:0px 0px 0px 40px ;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+    }
+    table div p {
+        font-weight: 300;
+        color: white;
+        margin: 5px 5px 0px 10px;
+        text-align: center;
+        font-size: 13px;
+    }
+.seccion2{
+    border: 2px solid green;
+
+    /* margin-top: 35px ; */
     height: 110px;
-    position: relative;
+    /* position: relative; */
     /* display: grid; */
     /* grid-template-columns: repeat(3, 1fr); */
 }
@@ -118,12 +130,13 @@ body{
     width: 250px;
     
 }
-.seccion2 .contenedor .span{
+.seccion2 .contenedor span{
     /* border: 2px solid red; */
     font-size: 25px;
     font-weight: 600;
     padding-bottom: 5px;
 }
+
 
 .seccion2 .contenedor div{
     color: white;
@@ -137,25 +150,25 @@ body{
     justify-content: center;
     align-items: center;
 }
-.seccion2 .contenedor div .p{
+.seccion2 .contenedor div p{
     color: black;
     font-weight: 300;
     color: white;
     margin: 10px 5px 10px 5px;
 }
 .seccion2 .container1{
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 15px;
     
 }
 .seccion2 .container2{
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 250px;
 }
 .seccion2 .container3{
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 610px;
 }
@@ -165,7 +178,7 @@ body{
     /* grid-template-columns: repeat(2,250px); */
     /* justify-content: center; */
     /* gap: 160px; */
-    padding: 40px 20px 5px 40px ;
+    padding: 20px 20px 0px 20px ;
     text-align: justify;
 
 }
@@ -174,19 +187,20 @@ body{
     width: 900px;
     
 }
-.seccion3  .p{
+.seccion3  p{
     /* text-align: center; */
 
-    font-size: 20px;
+    font-size: 13px;
     font-weight: 400;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 }
 .footer {
-    margin-top: 40px;
-    font-size: 14px;
+    margin-top: 30px;
+    font-size: 10px;
     text-align: center;
     color: gray;
-    background-color: transparent;}
+        /* background-color: transparent; */
+}
 
 a{
     text-decoration: none;
@@ -201,7 +215,7 @@ a{
         
         padding: 0px;
     }
-    .seccion1 .h3{
+    .seccion1 h3{
         letter-spacing: 0px;
     }
     .content {
