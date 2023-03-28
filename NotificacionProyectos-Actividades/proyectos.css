@@ -178,4 +178,7 @@ a{
     .seccion2 div p span {
         margin-left: 10px;
     }
+.seccion2 button{
+    margin: 15px 0;
+}
   }
