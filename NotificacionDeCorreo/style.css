@@ -215,6 +215,47 @@ a{
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 591px) {
+    .body {
+        padding: 0px;
+      }
+      .contenedor-general {
+        margin: 0px;
+        width: auto;
+      }
+
+      .seccion1 h3{
+        font-size: 37px;
+        letter-spacing: 7px;
+        /* border: 2px solid red; */
+        height: auto;
+    }
+    .seccion1 p {
+        font-size: 25px;
+    }
+    .seccion1 p span {
+        font-size: 25px;
+
+    }
+    table {
+        /* border: 2px solid yellow; */
+        width: auto;
+    }
+    table th span{
+        padding: 5px;
+        /* border: 2px solid red; */
+    }
+    table td{
+        padding: 5px;
+    }
+    table td div p{
+        font-size: 10px;
+        margin: 7px ;
+
+    }
+    table div{
+        width: auto;
+        margin: 0;
+    }
 
 }
