@@ -103,6 +103,14 @@ width: 100%;
     padding: 7px;
     margin: 5px auto;
 }
+button:hover{
+    background:rgba(255, 255, 255, 0.514);
+    box-shadow: 0 0 15px #b094ec;
+    border-color:  white;
+    color: black;
+    font-weight: 700;
+
+}
 .footer {
     margin-top: 10px;
     font-size: 10px;
