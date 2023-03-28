@@ -2,10 +2,220 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" /><!--[if !mso]><!-->
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" /><!--<![endif]-->
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Usuario Normal</title>
+    <style>
+        
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}
+.body{
+    background: #252525;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 682px;
+    margin: 0px;
+    padding-top:50px ;
+}
+.contenedor-general{
+    background: #1d1d1d;
+    color: white;
+
+    max-width: 570px;
+    margin: auto;
+    padding: 25px 25px 30px 25px ;
+    border-radius: 7px;
+}
+
+.header{
+    
+    font-size: 16px;
+    height: 40px;
+}
+.header p{
+    font-weight: 600;
+    padding-right: 10px;
+    color: #b094ec;
+
+}
+.header span{
+    font-weight: 500;
+    color: white;
+}
+
+.header div{
+    width: 80px;
+    height: 3px;
+    background: #b094ec;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.seccion1{
+    height: 160px;
+   text-align: center;
+}
+.seccion1 h3{
+    height: 60px;
+    font-size: 50px;
+    letter-spacing: 17px;
+}
+.seccion1 p{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+   
+}
+.seccion1 span{
+    text-align: center;
+    font-size: 40px;
+    color: #b094ec;
+    font-weight: 500;
+
+}
+.seccion1 div{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+
+}
+.seccion1 div p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+}
+    table{
+        width: 100%;
+    }
+    td{
+        text-align: center;
+    }
+    table div {
+        color: white;
+        border: 2px solid blueviolet ;
+        width: 180px;
+        height: 30px;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    table div p {
+        font-weight: 300;
+        color: white;
+        margin: 5px 5px 0px 10px;
+        text-align: center;
+        font-size: 13px;
+    }
+.seccion2{
+    border: 2px solid green;
+    height: 110px;
+}
+.seccion2 .contenedor{
+    
+
+    text-align: center;
+    width: 250px;
+    
+}
+.seccion2 .contenedor span{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+
+.seccion2 .contenedor div{
+    color: white;
+    border: 2px solid blueviolet ;
+    width: 225px;
+    height: 40px;
+    border-radius: 10px;
+    margin:10px 0px 0px 10px ;
+    justify-content: center;
+    align-items: center;
+}
+.seccion2 .contenedor div p{
+    color: black;
+    font-weight: 300;
+    color: white;
+    margin: 10px 5px 10px 5px;
+}
+
+.seccion3{
+    padding: 20px 20px 0px 20px ;
+    text-align: justify;
+
+}
+.seccion3 .parrafos{
+    width: 900px;
+    
+}
+.seccion3  p{
+
+    font-size: 13px;
+    font-weight: 400;
+}
+.footer {
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: center;
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+@media screen and (max-width: 591px) {
+    .body {
+        padding: 0px;
+      }
+      .contenedor-general {
+        margin: 0px;
+        width: auto;
+      }
+
+      .seccion1 h3{
+        font-size: 37px;
+        letter-spacing: 7px;
+        height: auto;
+    }
+    .seccion1 p {
+        font-size: 25px;
+    }
+    .seccion1 p span {
+        font-size: 25px;
+
+    }
+    table {
+        width: auto;
+    }
+    table th span{
+        padding: 5px;
+    }
+    table td{
+        padding: 5px;
+    }
+    table td div p{
+        font-size: 10px;
+        margin: 7px ;
+
+    }
+    table div{
+        width: auto;
+        margin: 0;
+    }
+
+}
+
+    </style>
 </head>
 
 <body>
@@ -18,25 +228,15 @@
     
         <div class="seccion1">
             <h3 >BIENVENIDO</h3>
-            <!-- <div> -->
+            
                 <p >LEONEL<span >  MESSI</span> </p>   
-                <!-- <span> LEONEL MESSI</span> -->
-            <!-- </div>  -->
+              
             <div>
                 <p >Haz sido registrado en el sistema tus credenciales son:</p>
             </div>
     
         </div>
-        <!-- <div class="seccion2">
-            <div class="contenedor , container2">
-                <span >Usuario:</span>
-                <div> <p >Terminator_12</p> </div>
-            </div>
-            <div class="contenedor , container3"> 
-                <span >Contraseña :</span>
-                <div> <p >empresaSuprema2</p></div>
-            </div>
-        </div> -->
+      
         <center>
 
             <table >
@@ -55,7 +255,6 @@
             </table>
         </center>
         <div class="seccion3">
-            <!-- <div class="parrafos"> -->
                 <p >
                     Es un placer tenerte como nuevo miembro del sistema Progress Organizer
                     tus credenciales son de tipo administrador  guardalas y no las compartas
@@ -63,7 +262,6 @@
                     Para mayor informacion contactarse con: <a href="#">elpepito@support.com</a>
                 </p>
                 
-            <!-- </div> -->
         </div>
     
     </div>
