@@ -13,9 +13,8 @@ body{
 .contenedor-general{
     background: #1d1d1d;
     max-width: 570px;
-    height: 70vh;
     margin: 50px auto;
-    padding:25px ;
+    padding:25px 25px 75px 25px;
     /* border: 1px solid #b094ec; */
 }
 
@@ -43,8 +42,6 @@ body{
     border-radius: 10px;
 }
 .seccion1{
-    /* border: 2px solid green; */
-    /* padding: 40px 200px 60px 100px; */
    text-align: center;
 }
 .seccion1 div{
@@ -69,33 +66,34 @@ body{
     font-weight: 700;
 }
 .seccion2{
-    /* border: 2px solid green; */
     margin-top: 10px ;
     height: 110px;
     font-size: 12px;
-
+    
     padding: 0px 3px 0px 15px;
+}
+.seccion2 table{
+    font-size: 20px;
+
 }
 .seccion2 table td{
     vertical-align: top;
     padding: 10px 10px 0px 0px;
-    /* border: 2px solid yellow; */
 
     font-size: 15px;
     font-weight: 400;
     text-align: left;
 }
-.col-1{
+.seccion2 .col-1{
     width: 400px;
     padding: 15px;
 }
+
 .seccion2 table td .x{
     margin-top: 10px;
 }
-.seccion2 table{
-    /* border: 2px solid yellow; */
-    font-size: 20px;
-
+.seccion2 table td span{
+    color: #b094ec;
 }
 .seccion2 div{
     width: 220px;
@@ -126,21 +124,28 @@ body{
     
     
 }
+.seccion2 button{
 
-.seccion3{
-  
-    padding: 40px 20px 5px 40px ;
-    text-align: justify;
+    border: 2px solid #b094ec;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin: 15px 25%;
+}
+
+.seccion2 button:hover{
+    background:rgba(255, 255, 255, 0.514);
+    box-shadow: 0 0 15px #b094ec;
+    border-color:  white;
+    color: black;
+    font-weight: 700;
 
 }
-.seccion3 .parrafos{
 
-}
-.seccion3  p{
-
-}
 .footer {
-    margin-top: 40px;
+    margin-top: 10px;
     font-size: 14px;
     text-align: center;
     color: gray;
@@ -150,3 +155,27 @@ a{
     text-decoration: none;
     color: blueviolet;
 }
+@media screen and (max-width:540px) {
+    .body {
+      padding: 0px;
+    }
+
+    .contenedor-general {
+      margin: 0px;
+      border-radius: 0px;
+      padding-bottom: 200px;
+    }
+    .seccion2 div {
+        padding: 10px;
+        width: 180px;
+    }
+    .seccion2 div h3 {
+        font-size: 12px;
+    }
+    .seccion2 div p {
+        font-size: 12px;
+    }
+    .seccion2 div p span {
+        margin-left: 10px;
+    }
+  }
