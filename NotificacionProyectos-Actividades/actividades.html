@@ -1,19 +1,20 @@
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" /><!--[if !mso]><!-->
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" /><!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="proyectos.css"> -->
+    <title>Document</title>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
-      body {
-        margin: 0px;
-        background-color: #252525
-        }
-      .body {
+
+.body {
         background-color: #252525;
         font-family: 'Poppins', sans-serif;
         font-size: 20px;
@@ -22,147 +23,227 @@
         padding: 30px 0px;
         line-height: 1.5714285714285714;
         margin: 0px;}
+.contenedor-general{
+    background: #1d1d1d;
+    max-width: 570px;
+    margin: 50px auto;
+    padding:25px 25px 75px 25px;
+    /* border: 1px solid #b094ec; */
+    border-radius: 7px;
+}
 
 .header{
-    padding-left: 20px;
-    padding-top: 10px;
-    font-size: 15px;
-    height: 20px;
+    /* border: 2px solid green; */
     position: relative;
-   
+    font-size: 16px;
+    height: 50px;
 }
-.p{
+.header p{
     font-weight: 600;
     padding-right: 10px;
     color: #b094ec;
-
-}
-.b{
-    font-weight: 600;
     padding-right: 10px;
-    color: #ffffff;
-
 }
-.tabla{
-    
-    border: 2px solid #b094ec;
-    width: 250px;
-    height: 200px;
-    border-radius: 12px;
+.header span{
+    color: white;
+    font-weight: 500;
 }
 
-.div{
-    width:77px;
+.header div{
+    width: 82px;
     height: 3px;
     background: #b094ec;
     border-radius: 10px;
-    position: absolute;
-    top: 30px;
+}
+.seccion1{
+   text-align: center;
+}
+.seccion1 div{
+
+    width: 91%;
+    margin: auto;
+    height: 4px;
+    text-align: center;
+    background: #b094ec;
+    border-radius: 30px;
+    position: relative;
+}
+.seccion1 h3{
+    font-size: 30px;
+    letter-spacing: 5px;
 }
 
-      p {
-        margin: 0 0 1rem 0;
+.seccion1 span{
+    font-size: 30px;
+    margin-left:0px ;
+    color: #b094ec;
+    font-weight: 700;
+}
+.seccion2{
+    margin-top: 10px ;
+    height: 110px;
+    font-size: 12px;
+    
+    padding: 0px 3px 0px 15px;
+}
+.seccion2 table{
+    font-size: 20px;
+
+}
+.seccion2 table td{
+    vertical-align: top;
+    padding: 10px 10px 0px 0px;
+
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+.seccion2 .col-1{
+    width: 400px;
+    padding: 15px;
+}
+
+.seccion2 table td .x{
+    margin-top: 10px;
+}
+.seccion2 table td span{
+    color: #b094ec;
+}
+.seccion2 div{
+    width: 220px;
+    border: 2px solid #b094ec;
+    border-radius:15px ;
+    height: 100px;
+    padding: 15px;
+
+}
+.seccion2 div p  {
+    font-size: 13px;
+    color: #b094ec;
+    margin-top: 4px;
+}
+.seccion2 div .descripcion{
     color: white;
-    }
-      p:last-of-type {
-        margin: 0 0 0rem 0;}
-      a {
-        color: #9279c8;
-        text-decoration: none;}
-      
-      .container {
-        max-width: 570px;
-        margin: auto;
-        background: #1d1d1d;
-        border-radius: 8px;
-        border: 1px solid #1d1d1d;
-      }
-   
-      .info {
-        
-        padding: 30px;
-        
-    }
-        
-      .footer {
-        margin-top: 30px;
-        font-size: 14px;
-        text-align: center;
-        color: gray;
-        background-color: transparent;}
- 
-      
-      @media screen and (max-width:600px) {
-        .body {
-          padding: 0px;}
-        .container {
-          margin: 0px;
-          border-radius: 0px;}
-      
-        
-      }
-      .titulo{
-        font-size: 25px;
-      }
-      table td{
-        vertical-align: top;
-        padding: 2px;
-    }
-    .espacio{
-        padding-left: 15px;
-        padding-top: 10px;
-        font-size: 13px;
-    }
-    .espacio2{
-        padding-left: 30px;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.seccion2 div p span {
+    margin: 0px 0px 0px 10px ;
+    color: white;
+
+}
+
+.seccion2 div h3{
+    font-size: 15px;
+    
+    
+}
+.seccion2 button{
+
+    border: 2px solid #b094ec;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin: 15px 25%;
+}
+
+.seccion2 button:hover{
+    background:rgba(255, 255, 255, 0.514);
+    box-shadow: 0 0 15px #b094ec;
+    border-color:  white;
+    color: black;
+    font-weight: 700;
+    background-color: #9c7edc;
+}
+
+.footer {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+    background-color: transparent;}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+@media screen and (max-width:584px){
+    .body {
+      padding: 0px;
     }
 
-   
+    .contenedor-general {
+      margin: 0px;
+      border-radius: 0px;
+      padding-bottom: 200px;
+    }
+    .seccion2 div {
+        padding: 10px;
+        width: 180px;
+    }
+    .seccion2 div h3 {
+        font-size: 12px;
+    }
+    .seccion2 div p {
+        font-size: 12px;
+    }
+    .seccion2 div p span {
+        margin-left: 10px;
+    }
+.seccion2 button{
+    margin: 15px 0;
+}
+  }
     </style>
-  </head>
-  <body>
+</head>
+<body>
     <div class="body">
-      <div class="container">
-       
-          <div class="header">
-            <p class="p">PROGRESS <b class="b">Organizer</b></p>
-            <div class="div"></div>
-        </div>
-          <div class="info">
-           <center><p class="titulo">ASIGNACIÓN DE TAREA</p> </center>
-            <hr>
+        <div class="contenedor-general">
+            <div class="header">
+                <p>PROGRESS <span>Organizer</span></p>
+                <div></div>
+            </div>
+    
+            <div class="seccion1">
+                <h3>ASIGNACION DE <span>ACTIVIDAD</span></h3>
+                <div></div>
+    
+            </div>
+            <div class="seccion2">
+                <table>
+                    <tr>
+                        <td class="col-1"><p class="x">Estimado usuario@ <span>{Name User}</span> se te asignado una nueva actividad. </p>
+                            <button>Comencemos</button>
+                        </td>
+                            <td class="col-2"><div><center><h3>{Name activity} </h3></center>
+                                    <p>Encargado:  <span>{Name User}</span></p>
+                                    <p class="descripcion">{Descripción de Actividad}</p>
+                            </div></td>
+                    </tr>
+                </table>
+    
+                    
+                </div>
+                <div class="aside">
+    
+    
+                </div>
+            </div>
+          <div class="footer">
+            <a style="color: #9c7edc;" href="${upEmailSettings.address}">
+              ProgresOrganizer
+            </a>
+            es una marca registrada de   TOC Systems
             <br>
-            <table>
-                <tr>
-                    <td>      
-                        <p>
-                        Estimado(a) usuario <b>LEONEL MESSI</b> se asignado una actividad a tu proyecto <b>{NAME PROYECT}</b>. 
-                        </p>
-                        <br>
-                        <br>
-                        <br>
-                        <button>Entrar actividad</button>
-                    </td>
-                    <td><div class="tabla">
-                        <p class="espacio">NOMBRE: <b class="espacio2">{NAME ACTIVITY}</b>
-                            <br>
-                            ESTADO: <b></b>
-                        </p>
-                    </div></td>    
-                </tr>
-            </table>
+            Todos los derechos reservados © 2023
           </div>
-        
-      
-      </div>
-      <div class="footer">
-        <a style="color: #9c7edc;" href="#">
-          ProgresOrganizer
-        </a>
-        es una marca registrada de   TOC Systems
-        <br>
-        Todos los derechos reservados © 2023
-      </div>
     </div>
-  </body>
+    </div>
+    
+
+       
+    
+</body>
 </html>

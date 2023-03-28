@@ -24,6 +24,7 @@ body{
     margin: auto;
     padding: 25px 25px 30px 25px ;
     /* border: 1px solid #b094ec; */
+    border-radius: 7px;
 }
 
 .header{

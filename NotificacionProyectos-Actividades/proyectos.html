@@ -4,45 +4,235 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="proyectos.css">
+    <!-- <link rel="stylesheet" href="proyectos.css"> -->
     <title>Document</title>
+    <style>
+        
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+        background-color: #252525;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        color: rgba(255, 254, 254, 0.88);
+        font-weight: 400;
+        padding: 30px 0px;
+        line-height: 1.5714285714285714;
+        margin: 0px;}
+.contenedor-general{
+    background: #1d1d1d;
+    max-width: 570px;
+    margin: 50px auto;
+    padding:25px 25px 75px 25px;
+    /* border: 1px solid #b094ec; */
+    border-radius: 7px;
+}
+
+.header{
+    /* border: 2px solid green; */
+    position: relative;
+    font-size: 16px;
+    height: 50px;
+}
+.header p{
+    font-weight: 600;
+    padding-right: 10px;
+    color: #b094ec;
+    padding-right: 10px;
+}
+.header span{
+    color: white;
+    font-weight: 500;
+}
+
+.header div{
+    width: 82px;
+    height: 3px;
+    background: #b094ec;
+    border-radius: 10px;
+}
+.seccion1{
+   text-align: center;
+}
+.seccion1 div{
+
+    width: 91%;
+    margin: auto;
+    height: 4px;
+    text-align: center;
+    background: #b094ec;
+    border-radius: 30px;
+    position: relative;
+}
+.seccion1 h3{
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.seccion1 span{
+    font-size: 30px;
+    margin-left:0px ;
+    color: #b094ec;
+    font-weight: 700;
+}
+.seccion2{
+    margin-top: 10px ;
+    height: 110px;
+    font-size: 12px;
+    
+    padding: 0px 3px 0px 15px;
+}
+.seccion2 table{
+    font-size: 20px;
+
+}
+.seccion2 table td{
+    vertical-align: top;
+    padding: 10px 10px 0px 0px;
+
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+.seccion2 .col-1{
+    width: 400px;
+    padding: 15px;
+}
+
+.seccion2 table td .x{
+    margin-top: 10px;
+}
+.seccion2 table td span{
+    color: #b094ec;
+}
+.seccion2 div{
+    width: 220px;
+    border: 2px solid #b094ec;
+    border-radius:15px ;
+    height: 100px;
+    padding: 15px;
+
+}
+.seccion2 div p  {
+    font-size: 13px;
+    color: #b094ec;
+    margin-top: 4px;
+}
+.seccion2 div .descripcion{
+    color: white;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.seccion2 div p span {
+    margin: 0px 0px 0px 10px ;
+    color: white;
+
+}
+
+.seccion2 div h3{
+    font-size: 15px;
+    
+    
+}
+.seccion2 button{
+
+    border: 2px solid #b094ec;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin: 15px 25%;
+}
+
+.seccion2 button:hover{
+    background:rgba(255, 255, 255, 0.514);
+    box-shadow: 0 0 15px #b094ec;
+    border-color:  white;
+    color: black;
+    font-weight: 700;
+
+}
+
+.footer {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+    background-color: transparent;}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+@media screen and (max-width:540px) {
+    .body {
+      padding: 0px;
+    }
+
+    .contenedor-general {
+      margin: 0px;
+      border-radius: 0px;
+      padding-bottom: 200px;
+    }
+    .seccion2 div {
+        padding: 10px;
+        width: 180px;
+    }
+    .seccion2 div h3 {
+        font-size: 12px;
+    }
+    .seccion2 div p {
+        font-size: 12px;
+    }
+    .seccion2 div p span {
+        margin-left: 10px;
+    }
+.seccion2 button{
+    margin: 15px 0;
+}
+  }
+    </style>
 </head>
 <body>
-    <div class="contenedor-general">
-        <div class="header">
-            <p>PROGRESS <span>Organizer</span></p>
-            <div></div>
-        </div>
-
-        <div class="seccion1">
-            <h3>ASIGNACION DE <span>PROYECTO</span></h3>
-            <div></div>
-
-        </div>
-        <div class="seccion2">
-            <table>
-                <tr>
-                    <td class="col-1"><p class="x">Estimado usuario <span> Franchezco Virgolini</span> ha sido
-                        asignado a un nuevo proyecto </p>
-                        <button>Ver mas</button>
-                    </td>
-                        <td class="col-2"><div><h3>Determinacion Doraemon</h3>
-                                <p>Encargado:  <span>Dr.Strange</span></p>
-                                <p class="descripcion">Nuevo modulo para el sistema tres pasteles backend/frontend</p>
-                        </div></td>
-                </tr>
-            </table>
-
-                
+    <div class="body">
+        <div class="contenedor-general">
+            <div class="header">
+                <p>PROGRESS <span>Organizer</span></p>
+                <div></div>
             </div>
-            <div class="aside">
-
-
+    
+            <div class="seccion1">
+                <h3>ASIGNACION DE <span>PROYECTO</span></h3>
+                <div></div>
+    
             </div>
-        </div>
-     
-
-        <div class="footer">
+            <div class="seccion2">
+                <table>
+                    <tr>
+                        <td class="col-1"><p class="x">Estimado usuario <span> Franchezco Virgolini</span> ha sido
+                            asignado a un nuevo proyecto </p>
+                            <button>Ver mas</button>
+                        </td>
+                            <td class="col-2"><div><h3>Determinacion Doraemon</h3>
+                                    <p>Encargado:  <span>Oscar Eduardo Nosa</span></p>
+                                    <p class="descripcion">Nuevo modulo para el sistema tres pasteles backend/frontend</p>
+                            </div></td>
+                    </tr>
+                </table>
+    
+                    
+                </div>
+                <div class="aside">
+    
+    
+                </div>
+            </div>
+          <div class="footer">
             <a style="color: #9c7edc;" href="${upEmailSettings.address}">
               ProgresOrganizer
             </a>
@@ -51,6 +241,10 @@
             Todos los derechos reservados © 2023
           </div>
     </div>
+    </div>
+    
+
+       
     
 </body>
 </html>
