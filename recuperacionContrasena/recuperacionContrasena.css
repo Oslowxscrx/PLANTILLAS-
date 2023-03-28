@@ -103,6 +103,10 @@ width: 100%;
     padding: 7px;
     margin: 5px auto;
 }
+.seccion3 span{
+    color: #b094ec;
+    font-weight: 700;
+}
 button:hover{
     background:rgba(255, 255, 255, 0.514);
     box-shadow: 0 0 15px #b094ec;
